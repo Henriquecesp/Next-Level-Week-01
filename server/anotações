@@ -1,0 +1,44 @@
+/**
+ * GET   : Buscar
+ * POST  : Criar
+ * PUT   : Atualizar
+ * DELETE: Remover
+ */
+
+/**
+ * Request param: obrigatorio
+ * Query param: ?param, opcionais, para filtros..
+ * Request body: Parametros para criacao/atualizacao do usuario
+ */
+
+
+Tabelas:
+points (pontos de coleta):{
+    image,
+    name,
+    email,
+    whatsapp,
+    latitude,
+    longitude,
+    city,
+    uf
+}
+items (items para coleta):{
+    image,
+    title
+}
+point_items (relacionamento pivot): {
+    point_id,
+    item_id
+}
+
+Migrations Knex = Historico do bd
+
+Funcionalidades: {
+    Cadastro de ponto de coleta,
+    Listar os itens de coleta,
+    Listar pontos(estado, cidade, item)
+    Listar um ponto de coleta especifico
+}
+
+Padrao de metodos: index, show, create, update, delete
