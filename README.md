@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Ecoleta Logo" title="#top" src=".github/logo.png" />
+    <img alt="Ecoleta Logo" title="#top" src=".github/capa.png" />
 </h1>
 
 ## Ecoleta
